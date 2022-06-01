@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pMDNqdbYMhZSWpHFMySGODK0IoPKS6vYSiRQJbtDs1u7nPi0tWtT1I2b7kv5U+whVpCyN/Rnu0CJZIyhlSJXXQ==",
+  "success": true,
+  "projectFilePath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HELLO\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

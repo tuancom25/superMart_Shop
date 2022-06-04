@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\SpringProjects\canhchimMartAPI\SuperMart_Shop_Winform\superMart_Shop\superMart_Shop\WebAppBrazor01\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\SpringProjects\canhchimMartAPI\SuperMart_Shop_Winform\superMart_Shop\superMart_Shop\WebAppBrazor01\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>

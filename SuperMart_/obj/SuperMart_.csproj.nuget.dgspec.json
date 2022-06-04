@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\SuperMart_.csproj": {}
+    "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj": {}
   },
   "projects": {
-    "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\SuperMart_.csproj": {
+    "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+        "projectUniqueName": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
         "projectName": "SuperMart_",
-        "projectPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+        "projectPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
         "packagesPath": "C:\\Users\\HELLO\\.nuget\\packages\\",
-        "outputPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\canhchim-supertMartShopClient\\superMart_Shop\\SuperMart_\\obj\\",
+        "outputPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

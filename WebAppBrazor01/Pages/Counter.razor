@@ -1,0 +1,47 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<p> tong là : @Tong  </p>
+
+<!--form-->
+
+    so a: <input type="number" @bind="@soA" id="soa"  /><br /> <br />
+    so b: <input type="number" @bind="@soB" id="sob"  /><br /> <br />
+    tong : <input type="number" id="tong" value="@Tong" /><br /> <br />
+    <button id="btnTong" @onclick="lamToan2"> tính tổng</button> 
+
+<!-----form-->
+<br/>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+
+@code {
+    private int currentCount = 0;
+    private int soA =0;
+    private int soB = 0;
+    private int Tong;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private void lamToan(int a, int b)
+    {
+        //return a + b;
+    }
+    private void lamToan2()
+    {
+      
+        Tong = soA + soB;
+
+        Tang();
+    }
+    public void Tang()
+    {
+        Tong++;
+    }
+}

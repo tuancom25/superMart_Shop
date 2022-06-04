@@ -13,10 +13,10 @@ namespace SuperMart_
 {
   public  class Utils
     {
-        public static String Server_url = "http://150/95/109.25";
-        public static String urlDomain =  "http://150/95/109.25";
+        public static String Server_url = "http://150.95.109.25:8888";
+        public static String urlDomain =  "http://150.95.109.25:8888";
         public static String Server_url_s = "http://";
-        public static String domain = "http://150/95/109.25:8888";
+        public static String domain = "http://150.95.109.25:8888";
         public static String token ="";
         public static String Port = "8888";
         static HttpWebRequest request = null;
@@ -85,7 +85,7 @@ namespace SuperMart_
             //  }
             return request;
         }
-         static String getJsondataFromRestAPI(String action, String token, String method)
+       public  static String getJsondataFromRestAPI(String action, String token, String method)
         {
             //action = urlDomain + action;
             HttpWebRequest request = Utils.getHttpWebRequest(action, "Bearer " + token.Replace("Bearer", ""), method);
@@ -112,7 +112,6 @@ namespace SuperMart_
             return ListObjectJsonData;
         }
         //=======================****===========================//
-
 
     }
 }

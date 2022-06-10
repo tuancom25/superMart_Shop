@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMart_", "SuperMart_.csproj", "{C1177C7D-9190-4E61-AC6D-1A5DF133B360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppBrazor01", "..\WebAppBrazor01\WebAppBrazor01.csproj", "{20596DBE-BDDF-42B9-B104-CC31323EBAAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppBrazor01", "..\WebAppBrazor01\WebAppBrazor01.csproj", "{20596DBE-BDDF-42B9-B104-CC31323EBAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMonitoring", "..\WebAppMonitoring\WebAppMonitoring.csproj", "{A8DEEF4E-9CD1-41AA-838B-83A18557E88E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{20596DBE-BDDF-42B9-B104-CC31323EBAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20596DBE-BDDF-42B9-B104-CC31323EBAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20596DBE-BDDF-42B9-B104-CC31323EBAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DEEF4E-9CD1-41AA-838B-83A18557E88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DEEF4E-9CD1-41AA-838B-83A18557E88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DEEF4E-9CD1-41AA-838B-83A18557E88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DEEF4E-9CD1-41AA-838B-83A18557E88E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

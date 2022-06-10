@@ -36,6 +36,10 @@ namespace SuperMart_
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.testHttps = new System.Windows.Forms.Button();
+            this.txtToken = new System.Windows.Forms.TextBox();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.btnSale = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -76,9 +80,9 @@ namespace SuperMart_
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(43, 209);
+            this.richTextBox1.Location = new System.Drawing.Point(45, 218);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(428, 121);
+            this.richTextBox1.Size = new System.Drawing.Size(416, 146);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
             // 
@@ -100,11 +104,49 @@ namespace SuperMart_
             this.label2.TabIndex = 5;
             this.label2.Text = "Pass :";
             // 
+            // testHttps
+            // 
+            this.testHttps.Location = new System.Drawing.Point(626, 180);
+            this.testHttps.Name = "testHttps";
+            this.testHttps.Size = new System.Drawing.Size(75, 23);
+            this.testHttps.TabIndex = 6;
+            this.testHttps.Text = "Test HTTPs";
+            this.testHttps.UseVisualStyleBackColor = true;
+            this.testHttps.Click += new System.EventHandler(this.testHttps_Click);
+            // 
+            // txtToken
+            // 
+            this.txtToken.Location = new System.Drawing.Point(614, 30);
+            this.txtToken.Name = "txtToken";
+            this.txtToken.Size = new System.Drawing.Size(100, 20);
+            this.txtToken.TabIndex = 7;
+            // 
+            // txt2
+            // 
+            this.txt2.Location = new System.Drawing.Point(614, 81);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(100, 20);
+            this.txt2.TabIndex = 8;
+            // 
+            // btnSale
+            // 
+            this.btnSale.Location = new System.Drawing.Point(376, 167);
+            this.btnSale.Name = "btnSale";
+            this.btnSale.Size = new System.Drawing.Size(75, 23);
+            this.btnSale.TabIndex = 9;
+            this.btnSale.Text = "Sale";
+            this.btnSale.UseVisualStyleBackColor = true;
+            this.btnSale.Click += new System.EventHandler(this.btnSale_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 340);
+            this.ClientSize = new System.Drawing.Size(718, 249);
+            this.Controls.Add(this.btnSale);
+            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.txtToken);
+            this.Controls.Add(this.testHttps);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
@@ -128,5 +170,9 @@ namespace SuperMart_
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button testHttps;
+        private System.Windows.Forms.TextBox txtToken;
+        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.Button btnSale;
     }
 }

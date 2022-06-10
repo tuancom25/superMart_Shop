@@ -12,16 +12,21 @@ using SuperMart_.Model;
 namespace SuperMart_
 {
   public  class Utils
-    {
+    {   
         public static String Server_url = "http://150.95.109.25:8888";
         public static String urlDomain =  "http://150.95.109.25:8888";
+        public static String domain    =  "http://150.95.109.25:8888";
+        public static String Server_urls = "https://150.95.109.25:8888";
+        public static String urlDomains =  "https://150.95.109.25:8888";
+        public static String domains    =  "https://150.95.109.25:8888";
         public static String Server_url_s = "http://";
-        public static String domain = "http://150.95.109.25:8888";
+
         public static String token ="";
         public static String Port = "8888";
         static HttpWebRequest request = null;
+        public static  String Token ="";
         //public static 
-
+        
         public static String PostData(String action, Object _post)
         {
             var result = string.Empty;
@@ -40,10 +45,10 @@ namespace SuperMart_
                 {
                     result = response.Content.ReadAsStringAsync().Result;
                 }
-                return " kết quả :  " + result;
+                return  result;
             }
             catch (Exception e) { }
-            return " kết quả :  " + result;
+            return  result;
         }
         public static String PostData(String action, Object _post, String token)
         {
@@ -111,7 +116,18 @@ namespace SuperMart_
             ListObjectJsonData = abc.Data.Content;
             return ListObjectJsonData;
         }
+        public static T getObjectDataFromServer<T>(String action, String token, String method)
+        {
+            List<T> ListObjectJsonData = new List<T>();         
+            String data = getJsondataFromRestAPI(action, token, method);
+            T t = JsonConvert.DeserializeObject<T>(data);           
+            return t;
+        }
         //=======================****===========================//
 
+        
     }
+
+
+
 }

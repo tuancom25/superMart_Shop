@@ -12,7 +12,9 @@ using SuperMart_.Model;
 namespace SuperMart_
 {
   public  class Utils
-    {   
+    {   public static String userMQTT = "sammy";
+        public static String passMQTT = "T-L6#2WW'vs:{E)H";
+        
         public static String Server_url = "http://150.95.109.25:8888";
         public static String urlDomain =  "http://150.95.109.25:8888";
         public static String domain    =  "http://150.95.109.25:8888";

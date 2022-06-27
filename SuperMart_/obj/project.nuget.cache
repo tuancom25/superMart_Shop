@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pJpH5ZzTvTlWSOkQavpZbh5n/+MtZoF9OE7KBfQIGldWw/IhHkpnPKSb+Y6dmr23tdHQKtsIPtpQ+P9Pln2Wow==",
+  "dgSpecHash": "k9c9hznftP/rLhO+GiocoJQBhiqSll2Jpd1fTslqvmMdfWe0nvsOj1CyYDg7BnaljVkO4yQq22hV20trRSHI2A==",
   "success": true,
-  "projectFilePath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+  "projectFilePath": "D:\\Simba_Java\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HELLO\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\HELLO\\.nuget\\packages\\zxing.net\\0.16.6\\zxing.net.0.16.6.nupkg.sha512"
+    "C:\\Users\\DoDo\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\DoDo\\.nuget\\packages\\zxing.net\\0.16.6\\zxing.net.0.16.6.nupkg.sha512"
   ],
   "logs": []
 }

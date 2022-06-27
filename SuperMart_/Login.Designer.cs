@@ -68,7 +68,7 @@ namespace SuperMart_
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(151, 20);
             this.txtUser.TabIndex = 2;
-            this.txtUser.Text = "admin";
+            this.txtUser.Text = "username";
             // 
             // txtPass
             // 
@@ -76,7 +76,7 @@ namespace SuperMart_
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(151, 20);
             this.txtPass.TabIndex = 3;
-            this.txtPass.Text = "13546222";
+            this.txtPass.Text = "123456";
             // 
             // richTextBox1
             // 

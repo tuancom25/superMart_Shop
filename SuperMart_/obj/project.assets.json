@@ -214,20 +214,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HELLO\\.nuget\\packages\\": {}
+    "C:\\Users\\DoDo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+      "projectUniqueName": "D:\\Simba_Java\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
       "projectName": "SuperMart_",
-      "projectPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
-      "packagesPath": "C:\\Users\\HELLO\\.nuget\\packages\\",
-      "outputPath": "D:\\SpringProjects\\canhchimMartAPI\\SuperMart_Shop_Winform\\superMart_Shop\\superMart_Shop\\SuperMart_\\obj\\",
+      "projectPath": "D:\\Simba_Java\\superMart_Shop\\SuperMart_\\SuperMart_.csproj",
+      "packagesPath": "C:\\Users\\DoDo\\.nuget\\packages\\",
+      "outputPath": "D:\\Simba_Java\\superMart_Shop\\SuperMart_\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\HELLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DoDo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

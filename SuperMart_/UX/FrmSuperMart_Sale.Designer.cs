@@ -93,6 +93,7 @@ namespace SuperMart_.UX
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
@@ -129,11 +130,11 @@ namespace SuperMart_.UX
             // lblTongTien2
             // 
             this.lblTongTien2.AutoSize = true;
-            this.lblTongTien2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongTien2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongTien2.ForeColor = System.Drawing.Color.Red;
             this.lblTongTien2.Location = new System.Drawing.Point(480, 23);
             this.lblTongTien2.Name = "lblTongTien2";
-            this.lblTongTien2.Size = new System.Drawing.Size(34, 20);
+            this.lblTongTien2.Size = new System.Drawing.Size(44, 20);
             this.lblTongTien2.TabIndex = 30;
             this.lblTongTien2.Text = "0.00";
             // 
@@ -199,6 +200,7 @@ namespace SuperMart_.UX
             this.button2.TabIndex = 23;
             this.button2.Text = "Tìm kiếm";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnHoanThanh
             // 
@@ -373,11 +375,11 @@ namespace SuperMart_.UX
             // lblTongTien
             // 
             this.lblTongTien.AutoSize = true;
-            this.lblTongTien.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongTien.ForeColor = System.Drawing.Color.Red;
             this.lblTongTien.Location = new System.Drawing.Point(96, 49);
             this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(34, 20);
+            this.lblTongTien.Size = new System.Drawing.Size(44, 20);
             this.lblTongTien.TabIndex = 1;
             this.lblTongTien.Text = "0.00";
             // 

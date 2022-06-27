@@ -12,15 +12,25 @@ using SuperMart_.Model;
 namespace SuperMart_
 {
   public  class Utils
-    {   public static String userMQTT = "sammy";
-        public static String passMQTT = "T-L6#2WW'vs:{E)H";
+    {   
+        //public static String userMQTT = "sammy";
+        //public static String passMQTT = "T-L6#2WW'vs:{E)H";
+
+        //public static String Server_url = "http://150.95.109.25:8888";
+        //public static String urlDomain =  "http://150.95.109.25:8888";
+        //public static String domain    =  "http://150.95.109.25:8888";
+        //public static String Server_urls = "https://150.95.109.25:8888";
+        //public static String urlDomains =  "https://150.95.109.25:8888";
+        //public static String domains    =  "https://150.95.109.25:8888";
+        //public static String Server_url_s = "http://";
         
-        public static String Server_url = "http://150.95.109.25:8888";
-        public static String urlDomain =  "http://150.95.109.25:8888";
-        public static String domain    =  "http://150.95.109.25:8888";
-        public static String Server_urls = "https://150.95.109.25:8888";
-        public static String urlDomains =  "https://150.95.109.25:8888";
-        public static String domains    =  "https://150.95.109.25:8888";
+        //Author: Do 
+        public static String Server_url = "http://localhost:8888";
+        public static String urlDomain = "http://localhost:8888";
+        public static String domain = "http://localhost:8888";
+        public static String Server_urls = "http://localhost:8888";
+        public static String urlDomains = "http://localhost:8888";
+        public static String domains = "http://localhost:8888";
         public static String Server_url_s = "http://";
 
         public static String token ="";
@@ -59,10 +69,12 @@ namespace SuperMart_
             {
                 String domain = urlDomain + action;
                 var client = new HttpClient();
-                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + DataFromServer.token);
+                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("*/*"));
                 client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
                 String data = JsonConvert.SerializeObject(_post);
+
                 var content = new StringContent(data, Encoding.UTF8, "application/json");
                 var response = client.PostAsync(domain, content).Result;
                 response.EnsureSuccessStatusCode();
@@ -129,7 +141,4 @@ namespace SuperMart_
 
         
     }
-
-
-
 }

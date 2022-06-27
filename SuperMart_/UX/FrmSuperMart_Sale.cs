@@ -49,8 +49,9 @@ namespace SuperMart_.UX
             {
                 counterToProcessScanItemQR++;
             }
+            //MessageBox.Show("Lay thong tin san pham tu server  0000 ", "nnn ");
             if (counterToProcessScanItemQR > 11)
-            {
+            { 
                 scanItemQrStatus = false;
                 counterToProcessScanItemQR = 0;
                 //  đã nhập thanh công, ->  process QR-Mã vạch . 
@@ -60,7 +61,9 @@ namespace SuperMart_.UX
                 txtOrderProcessCheck.Text = QR_Code;
                 txtGetBarCodeProduct.Text = "";
                 scanItemQrStatus = false;
-             //////   dgv1.DataSource = null;
+                //MessageBox.Show("Lay thong tin san pham tu server 11111 KKKKK . counterToProcessScanItemQR= " + counterToProcessScanItemQR, "nnn ");
+
+                //////   dgv1.DataSource = null;
                 //ModelItem m = new ModelItem();
                 //m.chietKhau = 0;
                 //m.donGia = 50;
@@ -136,6 +139,11 @@ namespace SuperMart_.UX
          ////   Customer.tongSoTien = sum;
             tongTien = sum;
             return sum;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
 
         }
 

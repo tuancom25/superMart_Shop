@@ -42,6 +42,13 @@ namespace SuperMart_
             txtToken.Text = loginSuccessDto.accessToken;
             txt2.Text = loginSuccessDto.user.fullname;
             Utils.token = loginSuccessDto.accessToken;
+
+
+            //FrmSuperMart_AddProduct frm = new FrmSuperMart_AddProduct(loginSuccessDto.accessToken);
+            //frm.Visible = true;
+
+            FrmSuperMart_UpdateProduct frm = new FrmSuperMart_UpdateProduct(loginSuccessDto.accessToken);
+            frm.Visible = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
